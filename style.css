@@ -1,0 +1,53 @@
+p {
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+}
+
+div {
+  text-align: left;
+}
+div.enq_wrap {
+  padding: 0% 40%;
+}
+@media screen and (max-width: 768px) {
+  div.enq_wrap {
+    padding: 0% 30%;
+  }
+}
+@media screen and (max-width: 576px) {
+  div.enq_wrap {
+    padding: 0% 15%;
+  }
+}
+
+
+
+
+table {
+  border-collapse: collapse;
+  width: 25%;
+  margin: 2% auto;
+}
+@media screen and (max-width: 768px) {
+  table {
+    width: 40%;
+  }
+}
+@media screen and (max-width: 576px) {
+  table {
+    width: 80%;
+  }
+}
+
+table, th, td {
+  border: 2px solid #c0c0c0;
+}
+
+.ans {
+  width: 20%;
+}
+
+.errMsg {
+  color: red;
+}
